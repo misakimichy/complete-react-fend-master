@@ -1,11 +1,14 @@
-import React from "react";
+import React from "react"
 
-const Pet = ({ name, animal, bread }) => {    
+const Pet = ({ name, animal, breed }) => {    
     return (
         <div>
-            <h1>{name}</h1>
+            <p>{name}</p>
+            <p>{animal}</p>
+            <p>{breed}</p>
+            <hr/>
         </div>
     )
-};
+}
 
-export default Pet;
+export default Pet
