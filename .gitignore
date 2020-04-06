@@ -2,7 +2,7 @@
 .DS_Store
 .vscode/
 dist/
-.cache
+.cache/
 
 # dependencies
 /node_modules
